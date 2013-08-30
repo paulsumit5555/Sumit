@@ -47,7 +47,7 @@ class PostsController < ApplicationController
   def create
     
     #redirect_to params[:post].merge!(:action=>"show")
-    # gdfgdfgdfgdfgdfgdfgdf
+    # gdfgdfgdfgdfgdfgdfgdf 
     #+++++++++++++++++++++++++++++++++
     #debugger
     #@title = params["post"]["title"]
