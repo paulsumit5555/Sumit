@@ -1,0 +1,23 @@
+<p>
+  <strong>Title:</strong>
+  
+   <%= @post.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @post.text %>
+</p>
+
+
+<p>
+  <strong>City</strong>
+  <%= @city.name %>
+</p>
+ 
+<%#<%= link_to 'Back', new_post_path%>   
+
+
+<%= link_to 'Back to main page', :controller => "welcome", :action => "index" %>
+
+

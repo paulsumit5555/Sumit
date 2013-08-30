@@ -1,0 +1,12 @@
+<%= form_for :post, url: post_posts_author_path do |f| %>
+  
+  <p>
+    New Author
+    <%= f.text_field :name %>    
+  </p>
+
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

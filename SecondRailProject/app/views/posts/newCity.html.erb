@@ -1,0 +1,26 @@
+
+<% flash.each do |name, msg| -%>
+      <%= content_tag :div, msg, class: name %>
+ <% end -%>
+
+
+<%= form_for :city, url: posts_addCity_path do |c| %>
+  
+   <p>
+    <%= c.label :City %><br>
+    <%#><%= collection_select(City.all, :id, :name , {:prompt => "Please select"},{:multiple => true}) %>  
+    
+    <%= c.select(:city, [['Indore', 'Indore'],
+                                  ['Delhi', 'Delhi'],
+                                  ['Kolkata', 'Kolkata'],
+                                  ['Hydrabad', 'Hydrabad'],
+                                  ['Jabalput', 'Jabalput']
+                                 ],{ },
+                                   { :multiple => true }
+                                 ) %>
+      
+  </p>
+<p>
+    <%= c.submit %>
+  </p>
+<% end %>

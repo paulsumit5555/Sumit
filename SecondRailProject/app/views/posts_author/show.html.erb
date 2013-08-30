@@ -1,0 +1,22 @@
+<p>
+  <strong>Title:</strong>
+  
+   <%= @post.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @post.text %>
+</p>
+
+<p>
+  <strong>Author name:</strong>
+  <%= @post.post_authors.first.name %>
+</p>
+ 
+<%#<%= link_to 'Back', new_post_path%>   
+
+
+<%= link_to 'Back to main page', :controller => "welcome", :action => "index" %>
+
+

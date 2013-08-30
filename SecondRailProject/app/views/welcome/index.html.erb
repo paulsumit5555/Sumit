@@ -1,0 +1,9 @@
+<h1>Hello, Rails!</h1>
+
+ <% flash.each do |name, msg| -%>
+      <%= content_tag :div, msg, class: name %>
+ <% end -%>
+
+<%= link_to 'New post', new_post_path %>
+<%= link_to 'Show all post', showAll_index_path %>
+
