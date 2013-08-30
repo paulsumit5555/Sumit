@@ -47,14 +47,14 @@ class PostsController < ApplicationController
   def create
     
     #redirect_to params[:post].merge!(:action=>"show")
-    
+    # for check git commit
     #+++++++++++++++++++++++++++++++++
     #debugger
     #@title = params["post"]["title"]
     #@text = params["post"]["text"]
     #redirect_to post_path(@title,:text=>@text)
   
-    #setting the cookies
+    #setting the cookies 
     cookies[:authName] = params[:post]["author"]
     
     @post = Post.new(params[:post])
