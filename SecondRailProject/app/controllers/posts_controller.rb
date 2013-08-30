@@ -47,7 +47,7 @@ class PostsController < ApplicationController
   def create
     
     #redirect_to params[:post].merge!(:action=>"show")
-    # for check git commit
+    # for check git commit 
     #+++++++++++++++++++++++++++++++++
     #debugger
     #@title = params["post"]["title"]
