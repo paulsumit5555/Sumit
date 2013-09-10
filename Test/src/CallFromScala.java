@@ -1,6 +1,6 @@
 public class CallFromScala {
 
 public void method(){
-	System.out.println("in LOCAL");
+	System.out.println("in LOCAL from repo");
 }
 }
