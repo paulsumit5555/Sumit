@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
 	#Hello
 	puts ('merge')
+	puts('second time changes')
 end
