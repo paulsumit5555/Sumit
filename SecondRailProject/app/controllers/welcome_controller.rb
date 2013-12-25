@@ -2,5 +2,6 @@
 class WelcomeController < ApplicationController
   def index
 		puts("Checking merge and commit")
+		puts("dec 25")
   end
 end
