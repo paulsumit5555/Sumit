@@ -10,7 +10,7 @@ public class Demo {
 	 */
 	public static void main(String[] args) {
 		long total = 0;
-	    final int maxCount = 100;
+	    final int maxCount = 200;
 	    for (int count = 0; count < maxCount; count++)
 	    {
 	        final long t1 = System.currentTimeMillis();
