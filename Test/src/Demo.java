@@ -11,6 +11,7 @@ public class Demo {
 	public static void main(String[] args) {
 		long total = 0;
 	    final int maxCount = 100;
+ System.out.println("from testbranch");
 	    for (int count = 0; count < maxCount; count++)
 	    {
 	        final long t1 = System.currentTimeMillis();
